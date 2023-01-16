@@ -1,0 +1,30 @@
+{
+  "name": "koishi-plugin-bullshit-generator",
+  "description": "A koishi plugin that generates meaningless Chinese bullshit.",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "author": "cn-traveler <cn-traveler@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CN-traveler/koishi-plugin-bullshit-generator.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "bot",
+    "koishi",
+    "plugin",
+    "bullshit",
+    "generator"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.11.1"
+  },
+  "dependencies": {
+    "@lwys-pkg-releaser/node-bullshit-generator": "^1.4.1"
+  }
+}
